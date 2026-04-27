@@ -1,0 +1,176 @@
+{
+  "Meta": {
+    "siteName": "Randa Torten",
+    "tagline": "Handgemacht mit Liebe in Karlsruhe",
+    "description": "Individuelle Torten, Cupcakes, Cakepops & Cookies für Hochzeiten, Geburtstage und besondere Anlässe – mit Liebe handgefertigt in Karlsruhe."
+  },
+  "Nav": {
+    "home": "Start",
+    "gallery": "Galerie",
+    "about": "Über uns",
+    "order": "Bestellen",
+    "contact": "Kontakt",
+    "prices": "Preise & FAQ",
+    "ctaOrder": "Jetzt anfragen"
+  },
+  "Hero": {
+    "eyebrow": "Karlsruhe · Baden-Württemberg",
+    "title": "Süße Erinnerungen,",
+    "titleHighlight": "handgemacht.",
+    "subtitle": "Individuelle Torten, Cupcakes & Cookies für deine schönsten Momente. Jede Kreation einzigartig – wie der Anlass selbst.",
+    "ctaPrimary": "Torte anfragen",
+    "ctaSecondary": "Galerie ansehen",
+    "scrollHint": "Entdecken"
+  },
+  "Featured": {
+    "eyebrow": "Frisch aus dem Ofen",
+    "title": "Neueste Kreationen",
+    "subtitle": "Direkt von Instagram – jede Woche neu inspiriert.",
+    "viewAll": "Alle Torten ansehen"
+  },
+  "Categories": {
+    "eyebrow": "Für jeden Anlass",
+    "title": "Was darf es sein?",
+    "subtitle": "Von der Hochzeitstorte bis zum Cakepop – wir bringen Ideen zum Leben.",
+    "wedding": "Hochzeit",
+    "weddingDesc": "Mehrstöckig, elegant, unvergesslich.",
+    "birthday": "Geburtstag",
+    "birthdayDesc": "Persönliche Themen für jedes Alter.",
+    "cupcakes": "Cupcakes",
+    "cupcakesDesc": "Kleine Köstlichkeiten, große Wirkung.",
+    "cookies": "Cookies",
+    "cookiesDesc": "Kunstvoll dekoriert, perfekt verpackt.",
+    "cakepops": "Cakepops",
+    "cakepopsDesc": "Bunt, niedlich, immer ein Hingucker.",
+    "other": "Sonstiges"
+  },
+  "About": {
+    "eyebrow": "Über Randa",
+    "title": "Mit Herz, Hand und Hingabe gebacken.",
+    "story": "Was als Leidenschaft für meine Familie begann, ist heute ein kleines Atelier in Karlsruhe. Jede Torte, die meine Werkstatt verlässt, erzählt eine Geschichte – deine Geschichte. Ich arbeite mit ausgewählten Zutaten, viel Liebe zum Detail und der festen Überzeugung, dass jeder Anlass ein einzigartiges Stück verdient.",
+    "signature": "— Randa",
+    "values": {
+      "handmade": "Handgemacht",
+      "handmadeDesc": "Jede Kreation entsteht in Einzelfertigung.",
+      "fresh": "Tagesfrisch",
+      "freshDesc": "Frisch gebacken am Tag deines Anlasses.",
+      "personal": "Persönlich",
+      "personalDesc": "Wir gestalten deine Vision gemeinsam."
+    },
+    "ctaContact": "Schreib mir"
+  },
+  "Gallery": {
+    "title": "Unsere Galerie",
+    "subtitle": "Jeder Kuchen ist ein Unikat – inspiriert von dir, gefertigt von uns.",
+    "filter": "Kategorie",
+    "all": "Alle",
+    "loading": "Lade Galerie...",
+    "empty": "Keine Beiträge in dieser Kategorie.",
+    "viewOnInstagram": "Auf Instagram ansehen",
+    "fallbackNotice": "Galerie zeigt zwischengespeicherte Beiträge."
+  },
+  "Order": {
+    "title": "Torte anfragen",
+    "subtitle": "Erzähl uns von deinem Anlass – wir melden uns innerhalb von 24 Stunden mit einem Angebot.",
+    "fields": {
+      "occasion": "Anlass",
+      "occasionPlaceholder": "Bitte wählen",
+      "occasionWedding": "Hochzeit",
+      "occasionBirthday": "Geburtstag",
+      "occasionBaptism": "Taufe",
+      "occasionAnniversary": "Jahrestag",
+      "occasionCorporate": "Firmenfeier",
+      "occasionOther": "Sonstiges",
+      "date": "Wunschdatum",
+      "guests": "Personenanzahl",
+      "guestsPlaceholder": "z.B. 25",
+      "flavor": "Geschmacksrichtung & Wünsche",
+      "flavorPlaceholder": "z.B. Schokolade mit Himbeerfüllung, vegan, glutenfrei...",
+      "inspiration": "Inspirationsbilder (optional, max. 3)",
+      "inspirationHint": "Zeig uns deine Vision – maximal 3 Bilder, je 5 MB.",
+      "name": "Dein Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "address": "Lieferadresse (optional)",
+      "addressHint": "Lass leer für Selbstabholung in Karlsruhe.",
+      "message": "Weitere Nachricht",
+      "consent": "Ich stimme der Verarbeitung meiner Daten gemäß DSGVO zu.",
+      "consentLink": "Datenschutz lesen"
+    },
+    "submit": "Anfrage senden",
+    "submitting": "Wird gesendet...",
+    "success": {
+      "title": "Vielen Dank!",
+      "body": "Deine Anfrage ist eingegangen. Randa meldet sich innerhalb von 24 Stunden bei dir.",
+      "again": "Weitere Anfrage senden"
+    },
+    "error": {
+      "title": "Da ist etwas schiefgelaufen.",
+      "body": "Bitte versuche es erneut oder kontaktiere uns direkt per WhatsApp.",
+      "rateLimit": "Zu viele Anfragen. Bitte versuche es in einer Stunde erneut."
+    },
+    "validation": {
+      "occasion": "Bitte wähle einen Anlass.",
+      "date": "Bitte wähle ein gültiges Datum (mindestens 7 Tage in der Zukunft).",
+      "guests": "Bitte gib eine Personenanzahl an (1-500).",
+      "flavor": "Bitte beschreibe deinen Wunsch (mindestens 10 Zeichen).",
+      "name": "Bitte gib deinen Namen an.",
+      "email": "Bitte gib eine gültige E-Mail an.",
+      "phone": "Bitte gib eine Telefonnummer an.",
+      "consent": "Bitte stimme dem Datenschutz zu."
+    }
+  },
+  "Contact": {
+    "title": "Kontakt",
+    "subtitle": "Wir freuen uns auf deine Nachricht.",
+    "address": "Karlsruhe, Baden-Württemberg",
+    "addressNote": "Genaue Adresse auf Anfrage – wir backen aus einer privaten Werkstatt.",
+    "hours": "Erreichbarkeit",
+    "hoursValue": "Mo-Sa, 10:00 – 19:00 Uhr",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "whatsapp": "WhatsApp",
+    "whatsappCta": "Direkt schreiben",
+    "instagram": "Instagram",
+    "instagramHandle": "@randa_torten"
+  },
+  "Prices": {
+    "title": "Preise & häufige Fragen",
+    "subtitle": "Transparente Richtpreise – jedes Angebot wird individuell erstellt.",
+    "tableTitle": "Richtpreise pro Person",
+    "size": "Anlass-Typ",
+    "guests": "Portionen",
+    "priceFrom": "ab Preis",
+    "items": {
+      "small": { "name": "Kleine Geburtstagstorte", "guests": "8 - 12", "price": "ab 65 €" },
+      "medium": { "name": "Mittlere Themen-Torte", "guests": "15 - 25", "price": "ab 120 €" },
+      "large": { "name": "Große Familien-Torte", "guests": "30 - 50", "price": "ab 220 €" },
+      "wedding": { "name": "Hochzeitstorte (mehrstöckig)", "guests": "60+", "price": "ab 380 €" },
+      "cupcakes": { "name": "Cupcakes (Box à 12)", "guests": "12", "price": "ab 36 €" },
+      "cookies": { "name": "Cookies (Box à 10)", "guests": "10", "price": "ab 28 €" }
+    },
+    "note": "Alle Preise verstehen sich als Richtwerte. Aufwändige Dekorationen, Sonderwünsche oder Allergiker-Optionen können den Preis beeinflussen.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      { "q": "Wie lange im Voraus muss ich bestellen?", "a": "Mindestens 7 Tage – für Hochzeitstorten gerne 4–8 Wochen, da wir nur eine begrenzte Zahl pro Wochenende annehmen." },
+      { "q": "Liefert ihr auch?", "a": "Ja, innerhalb von Karlsruhe und Umgebung gegen einen kleinen Aufpreis. Sonst gerne Selbstabholung." },
+      { "q": "Macht ihr auch vegane oder glutenfreie Torten?", "a": "Selbstverständlich. Bitte gib deine Wünsche und Allergien direkt im Bestellformular an." },
+      { "q": "Wie funktioniert die Bezahlung?", "a": "50 % Anzahlung bei Auftragsbestätigung, der Rest bei Abholung oder Lieferung – per Überweisung oder bar." },
+      { "q": "Kann ich eigene Bilder als Inspiration schicken?", "a": "Sehr gerne! Im Bestellformular kannst du bis zu 3 Inspirationsbilder hochladen." }
+    ]
+  },
+  "Footer": {
+    "tagline": "Handgemacht mit Liebe in Karlsruhe",
+    "navigation": "Navigation",
+    "contact": "Kontakt",
+    "legal": "Rechtliches",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "Common": {
+    "back": "Zurück",
+    "menu": "Menü",
+    "close": "Schließen"
+  }
+}

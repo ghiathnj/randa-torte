@@ -1,0 +1,176 @@
+{
+  "Meta": {
+    "siteName": "Randa Torten",
+    "tagline": "Handmade with love in Karlsruhe",
+    "description": "Bespoke cakes, cupcakes, cake pops & cookies for weddings, birthdays and special occasions – handcrafted with love in Karlsruhe."
+  },
+  "Nav": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "about": "About",
+    "order": "Order",
+    "contact": "Contact",
+    "prices": "Prices & FAQ",
+    "ctaOrder": "Request a cake"
+  },
+  "Hero": {
+    "eyebrow": "Karlsruhe · Baden-Württemberg",
+    "title": "Sweet memories,",
+    "titleHighlight": "handcrafted.",
+    "subtitle": "Bespoke cakes, cupcakes & cookies for your most beautiful moments. Each creation as unique as the occasion itself.",
+    "ctaPrimary": "Request a cake",
+    "ctaSecondary": "View gallery",
+    "scrollHint": "Discover"
+  },
+  "Featured": {
+    "eyebrow": "Fresh from the oven",
+    "title": "Latest creations",
+    "subtitle": "Straight from Instagram – freshly inspired every week.",
+    "viewAll": "View all cakes"
+  },
+  "Categories": {
+    "eyebrow": "For every occasion",
+    "title": "What may we bake?",
+    "subtitle": "From wedding cakes to cake pops – we bring your ideas to life.",
+    "wedding": "Wedding",
+    "weddingDesc": "Tiered, elegant, unforgettable.",
+    "birthday": "Birthday",
+    "birthdayDesc": "Personal themes for every age.",
+    "cupcakes": "Cupcakes",
+    "cupcakesDesc": "Tiny treats with big impact.",
+    "cookies": "Cookies",
+    "cookiesDesc": "Artfully decorated, perfectly packed.",
+    "cakepops": "Cake Pops",
+    "cakepopsDesc": "Colourful, cute, always a hit.",
+    "other": "Other"
+  },
+  "About": {
+    "eyebrow": "About Randa",
+    "title": "Baked with heart, hands and dedication.",
+    "story": "What started as a passion for my family has grown into a small atelier in Karlsruhe. Every cake that leaves my workshop tells a story – your story. I work with carefully selected ingredients, plenty of attention to detail, and the firm belief that every occasion deserves a unique piece.",
+    "signature": "— Randa",
+    "values": {
+      "handmade": "Handmade",
+      "handmadeDesc": "Every creation is made one at a time.",
+      "fresh": "Made fresh",
+      "freshDesc": "Baked fresh on the day of your event.",
+      "personal": "Personal",
+      "personalDesc": "We design your vision together."
+    },
+    "ctaContact": "Get in touch"
+  },
+  "Gallery": {
+    "title": "Our Gallery",
+    "subtitle": "Every cake is one of a kind – inspired by you, crafted by us.",
+    "filter": "Category",
+    "all": "All",
+    "loading": "Loading gallery...",
+    "empty": "No posts in this category.",
+    "viewOnInstagram": "View on Instagram",
+    "fallbackNotice": "Showing cached posts."
+  },
+  "Order": {
+    "title": "Request a cake",
+    "subtitle": "Tell us about your occasion – we'll respond within 24 hours with a quote.",
+    "fields": {
+      "occasion": "Occasion",
+      "occasionPlaceholder": "Please choose",
+      "occasionWedding": "Wedding",
+      "occasionBirthday": "Birthday",
+      "occasionBaptism": "Baptism",
+      "occasionAnniversary": "Anniversary",
+      "occasionCorporate": "Corporate event",
+      "occasionOther": "Other",
+      "date": "Desired date",
+      "guests": "Number of guests",
+      "guestsPlaceholder": "e.g. 25",
+      "flavor": "Flavour & wishes",
+      "flavorPlaceholder": "e.g. chocolate with raspberry filling, vegan, gluten-free...",
+      "inspiration": "Inspiration images (optional, max 3)",
+      "inspirationHint": "Show us your vision – up to 3 images, 5 MB each.",
+      "name": "Your name",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Delivery address (optional)",
+      "addressHint": "Leave empty for pickup in Karlsruhe.",
+      "message": "Additional message",
+      "consent": "I agree to the processing of my data according to GDPR.",
+      "consentLink": "Read privacy policy"
+    },
+    "submit": "Send request",
+    "submitting": "Sending...",
+    "success": {
+      "title": "Thank you!",
+      "body": "Your request has been received. Randa will get back to you within 24 hours.",
+      "again": "Send another request"
+    },
+    "error": {
+      "title": "Something went wrong.",
+      "body": "Please try again or contact us directly via WhatsApp.",
+      "rateLimit": "Too many requests. Please try again in an hour."
+    },
+    "validation": {
+      "occasion": "Please choose an occasion.",
+      "date": "Please choose a valid date (at least 7 days from now).",
+      "guests": "Please enter a number of guests (1-500).",
+      "flavor": "Please describe your wishes (at least 10 characters).",
+      "name": "Please enter your name.",
+      "email": "Please enter a valid email.",
+      "phone": "Please enter a phone number.",
+      "consent": "Please agree to the privacy policy."
+    }
+  },
+  "Contact": {
+    "title": "Contact",
+    "subtitle": "We look forward to your message.",
+    "address": "Karlsruhe, Baden-Württemberg",
+    "addressNote": "Exact address on request – we bake from a private workshop.",
+    "hours": "Availability",
+    "hoursValue": "Mon-Sat, 10:00 – 19:00",
+    "phone": "Phone",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "whatsappCta": "Message directly",
+    "instagram": "Instagram",
+    "instagramHandle": "@randa_torten"
+  },
+  "Prices": {
+    "title": "Prices & FAQ",
+    "subtitle": "Transparent guide prices – every offer is created individually.",
+    "tableTitle": "Guide prices",
+    "size": "Type",
+    "guests": "Servings",
+    "priceFrom": "from",
+    "items": {
+      "small": { "name": "Small birthday cake", "guests": "8 - 12", "price": "from 65 €" },
+      "medium": { "name": "Medium themed cake", "guests": "15 - 25", "price": "from 120 €" },
+      "large": { "name": "Large family cake", "guests": "30 - 50", "price": "from 220 €" },
+      "wedding": { "name": "Wedding cake (tiered)", "guests": "60+", "price": "from 380 €" },
+      "cupcakes": { "name": "Cupcakes (box of 12)", "guests": "12", "price": "from 36 €" },
+      "cookies": { "name": "Cookies (box of 10)", "guests": "10", "price": "from 28 €" }
+    },
+    "note": "All prices are guide values. Elaborate decorations, special wishes or allergen-friendly options may affect the price.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      { "q": "How far in advance should I order?", "a": "At least 7 days – for wedding cakes 4–8 weeks, as we only accept a limited number per weekend." },
+      { "q": "Do you also deliver?", "a": "Yes, within Karlsruhe and the surrounding area for a small fee. Otherwise pickup is also possible." },
+      { "q": "Do you make vegan or gluten-free cakes?", "a": "Of course. Please indicate your wishes and any allergies directly in the order form." },
+      { "q": "How does payment work?", "a": "50% deposit on order confirmation, the rest on pickup or delivery – by bank transfer or cash." },
+      { "q": "Can I send my own inspiration images?", "a": "Absolutely! In the order form you can upload up to 3 inspiration images." }
+    ]
+  },
+  "Footer": {
+    "tagline": "Handmade with love in Karlsruhe",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "legal": "Legal",
+    "imprint": "Imprint",
+    "privacy": "Privacy policy",
+    "rights": "All rights reserved."
+  },
+  "Common": {
+    "back": "Back",
+    "menu": "Menu",
+    "close": "Close"
+  }
+}

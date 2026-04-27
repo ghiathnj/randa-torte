@@ -1,0 +1,33 @@
+services:
+  web:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:3100}
+        NEXT_PUBLIC_WHATSAPP_NUMBER: ${NEXT_PUBLIC_WHATSAPP_NUMBER:-4915123456789}
+    container_name: randa-torten-web
+    ports:
+      - "3100:3000"
+    environment:
+      - NODE_ENV=production
+      - INSTAGRAM_ACCESS_TOKEN=${INSTAGRAM_ACCESS_TOKEN:-}
+      - INSTAGRAM_USER_ID=${INSTAGRAM_USER_ID:-}
+      - SMTP_HOST=mailhog
+      - SMTP_PORT=1025
+      - SMTP_SECURE=false
+      - SMTP_FROM=${SMTP_FROM:-Randa Torten <bestellung@randa-torten.de>}
+      - CONTACT_EMAIL=${CONTACT_EMAIL:-randa@example.com}
+      - NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL:-http://localhost:3100}
+      - NEXT_PUBLIC_WHATSAPP_NUMBER=${NEXT_PUBLIC_WHATSAPP_NUMBER:-4915123456789}
+      - REVALIDATE_SECRET=${REVALIDATE_SECRET:-dev-secret}
+    depends_on:
+      - mailhog
+    restart: unless-stopped
+
+  mailhog:
+    image: mailhog/mailhog:latest
+    container_name: randa-torten-mailhog
+    ports:
+      - "1025:1025"
+      - "8025:8025"
+    restart: unless-stopped

@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+build
+.env
+.env.local
+*.log
+.DS_Store
+data/instagram-cache.json
+.vercel
+next-env.d.ts
