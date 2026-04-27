@@ -9,3 +9,4 @@ build
 data/instagram-cache.json
 .vercel
 next-env.d.ts
+*.tsbuildinfo
