@@ -36,6 +36,12 @@
     "weddingDesc": "Tiered, elegant, unforgettable.",
     "birthday": "Birthday",
     "birthdayDesc": "Personal themes for every age.",
+    "kids": "Kids",
+    "kidsDesc": "Colourful, playful, always a smile.",
+    "love": "Love",
+    "loveDesc": "Romantic, delicate, from the heart.",
+    "special": "Special",
+    "specialDesc": "Unique, creative, extraordinary.",
     "cupcakes": "Cupcakes",
     "cupcakesDesc": "Tiny treats with big impact.",
     "cookies": "Cookies",
@@ -106,7 +112,7 @@
     },
     "error": {
       "title": "Something went wrong.",
-      "body": "Please try again or contact us directly via WhatsApp.",
+      "body": "Please try again or contact us directly on Instagram.",
       "rateLimit": "Too many requests. Please try again in an hour."
     },
     "validation": {
@@ -122,17 +128,16 @@
   },
   "Contact": {
     "title": "Contact",
-    "subtitle": "We look forward to your message.",
+    "subtitle": "Message us – best directly on Instagram!",
     "address": "Karlsruhe, Baden-Württemberg",
     "addressNote": "Exact address on request – we bake from a private workshop.",
     "hours": "Availability",
     "hoursValue": "Mon-Sat, 10:00 – 19:00",
     "phone": "Phone",
     "email": "Email",
-    "whatsapp": "WhatsApp",
-    "whatsappCta": "Message directly",
     "instagram": "Instagram",
-    "instagramHandle": "@randa_torten"
+    "instagramHandle": "@randa_torten",
+    "contactNote": "For orders, please message us directly on Instagram – that's the best way for us to discuss your wishes!"
   },
   "Prices": {
     "title": "Prices & FAQ",
@@ -142,14 +147,11 @@
     "guests": "Servings",
     "priceFrom": "from",
     "items": {
-      "small": { "name": "Small birthday cake", "guests": "8 - 12", "price": "from 65 €" },
-      "medium": { "name": "Medium themed cake", "guests": "15 - 25", "price": "from 120 €" },
-      "large": { "name": "Large family cake", "guests": "30 - 50", "price": "from 220 €" },
-      "wedding": { "name": "Wedding cake (tiered)", "guests": "60+", "price": "from 380 €" },
-      "cupcakes": { "name": "Cupcakes (box of 12)", "guests": "12", "price": "from 36 €" },
-      "cookies": { "name": "Cookies (box of 10)", "guests": "10", "price": "from 28 €" }
+      "tenPeople": { "name": "From 10 people", "price": "75 €" },
+      "twentyPeople": { "name": "From 20 people", "price": "100 €" },
+      "thirtyPeople": { "name": "From 30 people", "price": "150 €" }
     },
-    "note": "All prices are guide values. Elaborate decorations, special wishes or allergen-friendly options may affect the price.",
+    "note": "Prices depend on size, filling and decoration. Wedding cakes and special requests are calculated individually.",
     "faqTitle": "Frequently asked questions",
     "faq": [
       { "q": "How far in advance should I order?", "a": "At least 7 days – for wedding cakes 4–8 weeks, as we only accept a limited number per weekend." },

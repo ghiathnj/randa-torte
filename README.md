@@ -55,7 +55,7 @@ src/
 │   ├── kontakt/         # Kontakt + Karte
 │   └── preise-faq/      # Richtpreise + FAQ
 ├── components/
-│   ├── layout/          # Header, Footer, LanguageSwitcher, WhatsAppFAB
+│   ├── layout/          # Header, Footer, LanguageSwitcher
 │   ├── home/            # Hero, FeaturedCakes, Categories, About-Teaser, CTA
 │   ├── gallery/         # Gallery + Lightbox
 │   └── order/           # OrderForm

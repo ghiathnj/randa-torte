@@ -1,13 +1,27 @@
 import { useTranslations } from "next-intl";
-import { Cake, Cookie, Heart, PartyPopper, Sparkles } from "lucide-react";
 import { Link } from "@/i18n/routing";
 
 const ITEMS = [
-  { key: "wedding", icon: Heart, accent: "from-rose-soft to-rose-deep" },
-  { key: "birthday", icon: PartyPopper, accent: "from-gold-light to-gold" },
-  { key: "cupcakes", icon: Cake, accent: "from-rose-soft to-gold-light" },
-  { key: "cookies", icon: Cookie, accent: "from-cream-200 to-gold" },
-  { key: "cakepops", icon: Sparkles, accent: "from-rose-soft to-cream-200" },
+  {
+    key: "birthday",
+    image: "/images/cakes/salam-makeup.jpg",
+    label: "Geburtstag"
+  },
+  {
+    key: "kids",
+    image: "/images/cakes/super-josef-mario.jpg",
+    label: "Kinder"
+  },
+  {
+    key: "love",
+    image: "/images/cakes/teething-time-blue.jpg",
+    label: "Liebe"
+  },
+  {
+    key: "special",
+    image: "/images/cakes/capybara-onsen.jpg",
+    label: "Besonderes"
+  },
 ] as const;
 
 export function CategoriesPreview() {
@@ -28,21 +42,22 @@ export function CategoriesPreview() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6">
-          {ITEMS.map(({ key, icon: Icon, accent }) => (
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+          {ITEMS.map(({ key, image, label }) => (
             <Link
               key={key}
               href="/galerie"
-              className="group relative bg-white rounded-3xl p-6 sm:p-8 text-center shadow-soft hover:shadow-rose-glow hover:-translate-y-1 transition-all"
+              className="group relative aspect-[4/5] rounded-3xl overflow-hidden shadow-soft hover:shadow-rose-glow hover:scale-[1.02] transition-all"
             >
-              <div
-                className={`w-14 h-14 mx-auto rounded-2xl bg-gradient-to-br ${accent} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}
-              >
-                <Icon className="text-white" size={26} />
-              </div>
-              <div className="font-medium text-charcoal mb-1">{t(key)}</div>
-              <div className="text-xs text-charcoal/60 leading-snug">
-                {t(`${key}Desc` as never)}
+              <img
+                src={image}
+                alt={label}
+                className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <div className="text-white font-medium text-lg mb-1">{label}</div>
+                <div className="text-white/70 text-sm">{t(`${key}Desc` as never)}</div>
               </div>
             </Link>
           ))}

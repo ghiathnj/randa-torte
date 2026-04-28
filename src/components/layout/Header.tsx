@@ -10,9 +10,9 @@ import { cn } from "@/lib/cn";
 const NAV_ITEMS = [
   { href: "/" as const, key: "home" },
   { href: "/galerie" as const, key: "gallery" },
-  { href: "/ueber-uns" as const, key: "about" },
   { href: "/preise-faq" as const, key: "prices" },
   { href: "/kontakt" as const, key: "contact" },
+  { href: "/ueber-uns" as const, key: "about" },
 ];
 
 export function Header() {
@@ -90,12 +90,14 @@ export function Header() {
 
           <div className="flex items-center gap-2">
             <LanguageSwitcher />
-            <Link
-              href="/bestellen"
+            <a
+              href="https://www.instagram.com/randa_torten/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center px-5 py-2.5 rounded-full bg-rose-deep text-cream text-sm font-medium hover:bg-rose-darker transition-all shadow-rose-glow hover:shadow-lg hover:scale-105"
             >
               {t("ctaOrder")}
-            </Link>
+            </a>
             <button
               type="button"
               onClick={() => setMobileOpen((v) => !v)}
@@ -120,12 +122,14 @@ export function Header() {
                   {t(item.key)}
                 </Link>
               ))}
-              <Link
-                href="/bestellen"
+              <a
+                href="https://www.instagram.com/randa_torten/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-2 mx-4 inline-flex justify-center items-center px-5 py-3 rounded-full bg-rose-deep text-cream text-base font-medium"
               >
                 {t("ctaOrder")}
-              </Link>
+              </a>
             </nav>
           </div>
         ) : null}

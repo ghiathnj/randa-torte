@@ -36,6 +36,12 @@
     "weddingDesc": "Mehrstöckig, elegant, unvergesslich.",
     "birthday": "Geburtstag",
     "birthdayDesc": "Persönliche Themen für jedes Alter.",
+    "kids": "Kinder",
+    "kidsDesc": "Bunt, verspielt, immer ein Lächeln.",
+    "love": "Liebe",
+    "loveDesc": "Romantisch, zart, Herzenssache.",
+    "special": "Besonderes",
+    "specialDesc": "Einzigartig, kreativ, außergewöhnlich.",
     "cupcakes": "Cupcakes",
     "cupcakesDesc": "Kleine Köstlichkeiten, große Wirkung.",
     "cookies": "Cookies",
@@ -106,7 +112,7 @@
     },
     "error": {
       "title": "Da ist etwas schiefgelaufen.",
-      "body": "Bitte versuche es erneut oder kontaktiere uns direkt per WhatsApp.",
+      "body": "Bitte versuche es erneut oder kontaktiere uns direkt über Instagram.",
       "rateLimit": "Zu viele Anfragen. Bitte versuche es in einer Stunde erneut."
     },
     "validation": {
@@ -122,34 +128,30 @@
   },
   "Contact": {
     "title": "Kontakt",
-    "subtitle": "Wir freuen uns auf deine Nachricht.",
+    "subtitle": "Schreib uns – am besten direkt über Instagram!",
     "address": "Karlsruhe, Baden-Württemberg",
     "addressNote": "Genaue Adresse auf Anfrage – wir backen aus einer privaten Werkstatt.",
     "hours": "Erreichbarkeit",
     "hoursValue": "Mo-Sa, 10:00 – 19:00 Uhr",
     "phone": "Telefon",
     "email": "E-Mail",
-    "whatsapp": "WhatsApp",
-    "whatsappCta": "Direkt schreiben",
     "instagram": "Instagram",
-    "instagramHandle": "@randa_torten"
+    "instagramHandle": "@randa_torten",
+    "contactNote": "Für Bestellungen schreibe uns bitte direkt auf Instagram – dort können wir am besten auf deine Wünsche eingehen!"
   },
   "Prices": {
-    "title": "Preise & häufige Fragen",
+    "title": "Preise & FAQ",
     "subtitle": "Transparente Richtpreise – jedes Angebot wird individuell erstellt.",
-    "tableTitle": "Richtpreise pro Person",
+    "tableTitle": "Richtpreise",
     "size": "Anlass-Typ",
     "guests": "Portionen",
     "priceFrom": "ab Preis",
     "items": {
-      "small": { "name": "Kleine Geburtstagstorte", "guests": "8 - 12", "price": "ab 65 €" },
-      "medium": { "name": "Mittlere Themen-Torte", "guests": "15 - 25", "price": "ab 120 €" },
-      "large": { "name": "Große Familien-Torte", "guests": "30 - 50", "price": "ab 220 €" },
-      "wedding": { "name": "Hochzeitstorte (mehrstöckig)", "guests": "60+", "price": "ab 380 €" },
-      "cupcakes": { "name": "Cupcakes (Box à 12)", "guests": "12", "price": "ab 36 €" },
-      "cookies": { "name": "Cookies (Box à 10)", "guests": "10", "price": "ab 28 €" }
+      "tenPeople": { "name": "Ab 10 Personen", "price": "75 €" },
+      "twentyPeople": { "name": "Ab 20 Personen", "price": "100 €" },
+      "thirtyPeople": { "name": "Ab 30 Personen", "price": "150 €" }
     },
-    "note": "Alle Preise verstehen sich als Richtwerte. Aufwändige Dekorationen, Sonderwünsche oder Allergiker-Optionen können den Preis beeinflussen.",
+    "note": "Die Preise richten sich nach Größe, Füllung und Dekoration. Hochzeitstorten und besondere Wünsche werden individuell kalkuliert.",
     "faqTitle": "Häufige Fragen",
     "faq": [
       { "q": "Wie lange im Voraus muss ich bestellen?", "a": "Mindestens 7 Tage – für Hochzeitstorten gerne 4–8 Wochen, da wir nur eine begrenzte Zahl pro Wochenende annehmen." },

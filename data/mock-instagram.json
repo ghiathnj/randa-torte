@@ -1,175 +1,45 @@
 {
-  "fetchedAt": "2026-04-27T00:00:00.000Z",
+  "fetchedAt": "2026-04-28T00:00:00.000Z",
   "_comment": "Diese Daten dienen als Fallback, wenn keine Insta-API verbunden ist. Die Bilder werden aus public/images/cakes/ geladen.",
   "posts": [
     {
-      "id": "rt_red_rose_ruffle",
+      "id": "rt_super_josef_mario",
       "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/red-rose-ruffle.jpg",
-      "thumbnailUrl": "/images/cakes/red-rose-ruffle.jpg",
+      "mediaUrl": "/images/cakes/super-josef-mario.jpg",
+      "thumbnailUrl": "/images/cakes/super-josef-mario.jpg",
       "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "Tiefrote Herz-Ruffle-Torte – pure Romantik #wedding #hochzeit #valentine",
-      "timestamp": "2026-04-25T12:00:00+0000",
-      "category": "wedding"
+      "caption": "Super Josef – Mario-Torte zum 5. Geburtstag #geburtstag #birthday #kids",
+      "timestamp": "2026-04-26T12:00:00+0000",
+      "category": "birthday"
     },
     {
-      "id": "rt_arabic_gold",
+      "id": "rt_teething_time_blue",
       "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/arabic-gold-elegance.jpg",
-      "thumbnailUrl": "/images/cakes/arabic-gold-elegance.jpg",
+      "mediaUrl": "/images/cakes/teething-time-blue.jpg",
+      "thumbnailUrl": "/images/cakes/teething-time-blue.jpg",
       "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "Schwarz-gold mit arabischer Kalligrafie – elegant und festlich #hochzeit #wedding",
-      "timestamp": "2026-04-23T11:00:00+0000",
-      "category": "wedding"
+      "caption": "1st Birthday & Teething Time – zarte Pastell-Torte zum ersten Geburtstag #geburtstag #birthday #kids",
+      "timestamp": "2026-04-24T11:00:00+0000",
+      "category": "birthday"
     },
     {
-      "id": "rt_21_cosmetics",
+      "id": "rt_capybara_onsen",
       "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/twenty-one-cosmetics.jpg",
-      "thumbnailUrl": "/images/cakes/twenty-one-cosmetics.jpg",
+      "mediaUrl": "/images/cakes/capybara-onsen.jpg",
+      "thumbnailUrl": "/images/cakes/capybara-onsen.jpg",
       "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "Zum 21. Geburtstag – Make-up und Kosmetik-Topper für die Beauty-Liebhaberin #geburtstag #birthday",
+      "caption": "Capybara-Onsen – verspielte Geburtstagstorte mit Kapibaras im heißen Bad #geburtstag #birthday",
       "timestamp": "2026-04-22T10:00:00+0000",
       "category": "birthday"
     },
     {
-      "id": "rt_white_bow_leaves",
+      "id": "rt_salam_makeup",
       "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/white-bow-leaves.jpg",
-      "thumbnailUrl": "/images/cakes/white-bow-leaves.jpg",
+      "mediaUrl": "/images/cakes/salam-makeup.jpg",
+      "thumbnailUrl": "/images/cakes/salam-makeup.jpg",
       "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "Weiß mit pastellgrünem Schleifen-Topper – minimalistisch elegant #hochzeit #wedding",
+      "caption": "SALAM – Make-up und Kosmetik-Topper zum Geburtstag #geburtstag #birthday",
       "timestamp": "2026-04-20T14:00:00+0000",
-      "category": "wedding"
-    },
-    {
-      "id": "rt_white_pearl",
-      "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/white-pearl-classic.jpg",
-      "thumbnailUrl": "/images/cakes/white-pearl-classic.jpg",
-      "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "Weiß mit Perlmutt-Detail – schlichte Eleganz #wedding #hochzeit",
-      "timestamp": "2026-04-18T09:00:00+0000",
-      "category": "wedding"
-    },
-    {
-      "id": "rt_owl_friend",
-      "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/owl-friend.jpg",
-      "thumbnailUrl": "/images/cakes/owl-friend.jpg",
-      "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "Niedliche Eule für den Kindergeburtstag #geburtstag #birthday #kids",
-      "timestamp": "2026-04-16T15:00:00+0000",
-      "category": "birthday"
-    },
-    {
-      "id": "rt_nadim_batman",
-      "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/nadim-batman.jpg",
-      "thumbnailUrl": "/images/cakes/nadim-batman.jpg",
-      "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "NADIM 87 – Batman-Theme für den Geburtstag #geburtstag #birthday",
-      "timestamp": "2026-04-15T11:00:00+0000",
-      "category": "birthday"
-    },
-    {
-      "id": "rt_skye_paw_patrol",
-      "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/skye-paw-patrol.jpg",
-      "thumbnailUrl": "/images/cakes/skye-paw-patrol.jpg",
-      "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "Skye aus PAW Patrol in Rosa – Mädchen-Geburtstag #geburtstag #birthday #pawpatrol",
-      "timestamp": "2026-04-13T16:30:00+0000",
-      "category": "birthday"
-    },
-    {
-      "id": "rt_white_floral",
-      "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/white-floral-romance.jpg",
-      "thumbnailUrl": "/images/cakes/white-floral-romance.jpg",
-      "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "Weiße Buttercreme-Blüten – romantisch verträumte Hochzeit #hochzeit #wedding #braut",
-      "timestamp": "2026-04-11T13:00:00+0000",
-      "category": "wedding"
-    },
-    {
-      "id": "rt_red_velvet",
-      "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/red-velvet-layers.jpg",
-      "thumbnailUrl": "/images/cakes/red-velvet-layers.jpg",
-      "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "Red Velvet Slice mit feinen Sahne-Schichten – ein Klassiker, neu interpretiert #cookies",
-      "timestamp": "2026-04-09T10:00:00+0000",
-      "category": "cookies"
-    },
-    {
-      "id": "rt_red_bow",
-      "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/red-bow-elegance.jpg",
-      "thumbnailUrl": "/images/cakes/red-bow-elegance.jpg",
-      "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "Weiß mit roter Seidenschleife – statement-stark und elegant #wedding #hochzeit",
-      "timestamp": "2026-04-07T15:00:00+0000",
-      "category": "wedding"
-    },
-    {
-      "id": "rt_adele_roses",
-      "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/adele-red-roses.jpg",
-      "thumbnailUrl": "/images/cakes/adele-red-roses.jpg",
-      "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "Adele's Hen Night – kaskadierende rote Rosen für den Junggesellinnenabschied #wedding #hochzeit",
-      "timestamp": "2026-04-05T18:00:00+0000",
-      "category": "wedding"
-    },
-    {
-      "id": "rt_bmw_birthday",
-      "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/bmw-happy-birthday.jpg",
-      "thumbnailUrl": "/images/cakes/bmw-happy-birthday.jpg",
-      "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "BMW Happy Birthday – für echte Auto-Liebhaber #geburtstag #birthday #bmw",
-      "timestamp": "2026-04-03T12:00:00+0000",
-      "category": "birthday"
-    },
-    {
-      "id": "rt_amir_elegant",
-      "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/amir-elegant.jpg",
-      "thumbnailUrl": "/images/cakes/amir-elegant.jpg",
-      "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "AMIR – schlicht-elegant in Salbeigrün #geburtstag #birthday",
-      "timestamp": "2026-04-01T14:00:00+0000",
-      "category": "birthday"
-    },
-    {
-      "id": "rt_pharmacy",
-      "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/pharmacy-graduation.jpg",
-      "thumbnailUrl": "/images/cakes/pharmacy-graduation.jpg",
-      "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "Apotheker-Abschluss – Äskulapstab in Grün für die bestandene Prüfung #geburtstag #abschluss",
-      "timestamp": "2026-03-30T11:00:00+0000",
-      "category": "birthday"
-    },
-    {
-      "id": "rt_happy_birthday_blue",
-      "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/happy-birthday-blue.jpg",
-      "thumbnailUrl": "/images/cakes/happy-birthday-blue.jpg",
-      "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "Happy Birthday in Blau – stilvoller Klassiker #geburtstag #birthday",
-      "timestamp": "2026-03-28T13:00:00+0000",
-      "category": "birthday"
-    },
-    {
-      "id": "rt_ella_rainbow",
-      "mediaType": "IMAGE",
-      "mediaUrl": "/images/cakes/ella-rainbow.jpg",
-      "thumbnailUrl": "/images/cakes/ella-rainbow.jpg",
-      "permalink": "https://www.instagram.com/randa_torten/",
-      "caption": "Ella-Regenbogen mit goldenem Topper – Mädchen-Geburtstag #geburtstag #birthday #kids",
-      "timestamp": "2026-03-25T10:00:00+0000",
       "category": "birthday"
     }
   ]

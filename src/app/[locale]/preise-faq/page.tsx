@@ -1,7 +1,6 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { ChevronDown } from "lucide-react";
 
-const ITEM_KEYS = ["small", "medium", "large", "wedding", "cupcakes", "cookies"] as const;
 const FAQ_INDICES = [0, 1, 2, 3, 4] as const;
 
 export async function generateMetadata({
@@ -25,7 +24,7 @@ export default async function PricesFaqPage({
 
   return (
     <section className="relative py-16 sm:py-24">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
           <h1 className="heading-serif text-4xl sm:text-5xl text-charcoal">
             {t("title")}
@@ -35,6 +34,7 @@ export default async function PricesFaqPage({
           </p>
         </div>
 
+        {/* Preisübersicht - neu */}
         <div className="bg-white rounded-3xl shadow-soft overflow-hidden mb-16">
           <div className="px-6 sm:px-8 py-5 bg-gradient-to-r from-rose-soft/30 to-cream-200 border-b border-rose-soft/30">
             <h2 className="heading-serif text-2xl text-charcoal">
@@ -42,24 +42,32 @@ export default async function PricesFaqPage({
             </h2>
           </div>
           <div className="divide-y divide-rose-soft/20">
-            {ITEM_KEYS.map((key) => (
-              <div
-                key={key}
-                className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-6 px-6 sm:px-8 py-5 items-center hover:bg-cream/40 transition-colors"
-              >
-                <div className="font-medium text-charcoal col-span-2 sm:col-span-1">
-                  {t(`items.${key}.name` as never)}
-                </div>
-                <div className="text-charcoal/60 text-sm">
-                  {t(`items.${key}.guests` as never)}
-                </div>
-                <div className="text-rose-deep font-semibold text-right sm:text-left">
-                  {t(`items.${key}.price` as never)}
-                </div>
+            <div className="grid grid-cols-2 gap-2 sm:gap-6 px-6 sm:px-8 py-5 items-center hover:bg-cream/40 transition-colors">
+              <div className="font-medium text-charcoal">
+                {t("items.tenPeople.name")}
               </div>
-            ))}
+              <div className="text-rose-deep font-semibold text-right">
+                {t("items.tenPeople.price")}
+              </div>
+            </div>
+            <div className="grid grid-cols-2 gap-2 sm:gap-6 px-6 sm:px-8 py-5 items-center hover:bg-cream/40 transition-colors">
+              <div className="font-medium text-charcoal">
+                {t("items.twentyPeople.name")}
+              </div>
+              <div className="text-rose-deep font-semibold text-right">
+                {t("items.twentyPeople.price")}
+              </div>
+            </div>
+            <div className="grid grid-cols-2 gap-2 sm:gap-6 px-6 sm:px-8 py-5 items-center hover:bg-cream/40 transition-colors">
+              <div className="font-medium text-charcoal">
+                {t("items.thirtyPeople.name")}
+              </div>
+              <div className="text-rose-deep font-semibold text-right">
+                {t("items.thirtyPeople.price")}
+              </div>
+            </div>
           </div>
-          <div className="px-6 sm:px-8 py-4 bg-cream/40 text-xs text-charcoal/60">
+          <div className="px-6 sm:px-8 py-4 bg-cream/40 text-sm text-charcoal/70">
             {t("note")}
           </div>
         </div>

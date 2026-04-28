@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { WhatsAppFAB } from "@/components/layout/WhatsAppFAB";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -44,7 +43,6 @@ export default async function LocaleLayout({
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
-          <WhatsAppFAB number={process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? null} />
         </NextIntlClientProvider>
       </body>
     </html>
