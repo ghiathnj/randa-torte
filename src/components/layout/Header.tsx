@@ -52,7 +52,7 @@ export function Header() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/randa-logo.jpg"
-                alt="Cake Randa Logo"
+                alt="Randa Torten – Tortenbäckerei Karlsruhe"
                 width={48}
                 height={48}
                 className="w-full h-full object-cover"

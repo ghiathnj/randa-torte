@@ -51,7 +51,7 @@ export function CategoriesPreview() {
             >
               <img
                 src={image}
-                alt={label}
+                alt={`${label} – Torte aus Karlsruhe von Randa Torten`}
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />

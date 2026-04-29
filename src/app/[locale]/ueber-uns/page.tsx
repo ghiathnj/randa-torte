@@ -41,7 +41,7 @@ export default async function AboutPage({
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/images/randa-logo.jpg"
-            alt="Cake Randa Logo"
+            alt="Randa Torten – Tortenbäckerei Karlsruhe"
             width={160}
             height={160}
             className="w-full h-full object-cover"

@@ -51,7 +51,7 @@ export function FeaturedCakes({ posts }: FeaturedCakesProps) {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={post.thumbnailUrl ?? post.mediaUrl}
-                alt={post.caption?.slice(0, 80) ?? "Randa Torten cake"}
+                alt={`${post.caption?.slice(0, 80) ?? "Individuelle Torte"} – Randa Torten Karlsruhe`}
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 loading="lazy"
               />

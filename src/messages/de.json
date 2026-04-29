@@ -14,10 +14,10 @@
     "ctaOrder": "Jetzt anfragen"
   },
   "Hero": {
-    "eyebrow": "Karlsruhe · Baden-Württemberg",
+    "eyebrow": "Tortenbäckerei in Karlsruhe · Baden-Württemberg",
     "title": "Süße Erinnerungen,",
-    "titleHighlight": "handgemacht.",
-    "subtitle": "Individuelle Torten, Cupcakes & Cookies für deine schönsten Momente. Jede Kreation einzigartig – wie der Anlass selbst.",
+    "titleHighlight": "handgemacht in Karlsruhe.",
+    "subtitle": "Individuelle Torten, Cupcakes & Cookies aus Karlsruhe – Hochzeitstorten, Geburtstagstorten und Motivtorten, mit Liebe handgefertigt für deine schönsten Momente.",
     "ctaPrimary": "Torte anfragen",
     "ctaSecondary": "Galerie ansehen",
     "scrollHint": "Entdecken"
@@ -51,8 +51,8 @@
     "other": "Sonstiges"
   },
   "About": {
-    "eyebrow": "Über Randa",
-    "title": "Mit Herz, Hand und Hingabe gebacken.",
+    "eyebrow": "Über Randa Torten Karlsruhe",
+    "title": "Mit Herz, Hand und Hingabe gebacken in Karlsruhe.",
     "story": "Was als Leidenschaft für meine Familie begann, ist heute ein kleines Atelier in Karlsruhe. Jede Torte, die meine Werkstatt verlässt, erzählt eine Geschichte – deine Geschichte. Ich arbeite mit ausgewählten Zutaten, viel Liebe zum Detail und der festen Überzeugung, dass jeder Anlass ein einzigartiges Stück verdient.",
     "signature": "— Randa",
     "values": {
@@ -66,8 +66,8 @@
     "ctaContact": "Schreib mir"
   },
   "Gallery": {
-    "title": "Unsere Galerie",
-    "subtitle": "Jeder Kuchen ist ein Unikat – inspiriert von dir, gefertigt von uns.",
+    "title": "Torten-Galerie aus Karlsruhe",
+    "subtitle": "Jede Torte aus Karlsruhe ein Unikat – Hochzeitstorten, Geburtstagstorten und Motivtorten, inspiriert von dir, gefertigt von uns.",
     "filter": "Kategorie",
     "all": "Alle",
     "loading": "Lade Galerie...",
@@ -127,8 +127,8 @@
     }
   },
   "Contact": {
-    "title": "Kontakt",
-    "subtitle": "Schreib uns – am besten direkt über Instagram!",
+    "title": "Kontakt – Torte in Karlsruhe bestellen",
+    "subtitle": "Schreib uns für deine individuelle Torte aus Karlsruhe – am besten direkt über Instagram!",
     "address": "Karlsruhe, Baden-Württemberg",
     "addressNote": "Genaue Adresse auf Anfrage – wir backen aus einer privaten Werkstatt.",
     "hours": "Erreichbarkeit",
@@ -140,8 +140,8 @@
     "contactNote": "Für Bestellungen schreibe uns bitte direkt auf Instagram – dort können wir am besten auf deine Wünsche eingehen!"
   },
   "Prices": {
-    "title": "Preise & FAQ",
-    "subtitle": "Transparente Richtpreise – jedes Angebot wird individuell erstellt.",
+    "title": "Preise & FAQ – Torten aus Karlsruhe",
+    "subtitle": "Transparente Richtpreise für individuelle Torten aus Karlsruhe – jedes Angebot wird persönlich kalkuliert.",
     "tableTitle": "Richtpreise",
     "size": "Anlass-Typ",
     "guests": "Portionen",

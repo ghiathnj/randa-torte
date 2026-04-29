@@ -87,7 +87,7 @@ export function Hero({ showcase = [] }: HeroProps) {
               >
                 <ImageWithFallback
                   src={tiles[0].thumbnailUrl ?? tiles[0].mediaUrl}
-                  alt="Featured cake"
+                  alt="Individuelle Torte aus Karlsruhe – Randa Torten"
                 />
               </motion.div>
               {tiles[1] ? (
@@ -103,7 +103,7 @@ export function Hero({ showcase = [] }: HeroProps) {
                 >
                   <ImageWithFallback
                     src={tiles[1].thumbnailUrl ?? tiles[1].mediaUrl}
-                    alt="Featured cake"
+                    alt="Individuelle Torte aus Karlsruhe – Randa Torten"
                   />
                 </motion.div>
               ) : null}
@@ -120,7 +120,7 @@ export function Hero({ showcase = [] }: HeroProps) {
                 >
                   <ImageWithFallback
                     src={tiles[2].thumbnailUrl ?? tiles[2].mediaUrl}
-                    alt="Featured cake"
+                    alt="Individuelle Torte aus Karlsruhe – Randa Torten"
                   />
                 </motion.div>
               ) : null}
@@ -160,7 +160,7 @@ function HeroPlaceholder() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/randa-logo.jpg"
-          alt="Cake Randa"
+          alt="Randa Torten – Tortenbäckerei Karlsruhe Logo"
           className="w-full h-full object-cover"
         />
       </div>

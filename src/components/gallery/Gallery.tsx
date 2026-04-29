@@ -26,7 +26,7 @@ export function Gallery({ payload }: GalleryProps) {
 
   const slides = filtered.map((p) => ({
     src: p.mediaUrl,
-    alt: p.caption?.slice(0, 100) ?? "Randa Torten cake",
+    alt: `${p.caption?.slice(0, 100) ?? "Individuelle Torte"} – Randa Torten Karlsruhe`,
   }));
 
   return (
@@ -136,7 +136,7 @@ function CakeCard({
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={post.thumbnailUrl ?? post.mediaUrl}
-          alt={post.caption?.slice(0, 80) ?? "Cake"}
+          alt={`${post.caption?.slice(0, 80) ?? "Individuelle Torte"} – Randa Torten Karlsruhe`}
           className="w-full h-auto block group-hover:scale-105 transition-transform duration-700"
           loading="lazy"
         />

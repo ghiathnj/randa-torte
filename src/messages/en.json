@@ -14,10 +14,10 @@
     "ctaOrder": "Request a cake"
   },
   "Hero": {
-    "eyebrow": "Karlsruhe · Baden-Württemberg",
+    "eyebrow": "Cake Bakery in Karlsruhe · Baden-Württemberg",
     "title": "Sweet memories,",
-    "titleHighlight": "handcrafted.",
-    "subtitle": "Bespoke cakes, cupcakes & cookies for your most beautiful moments. Each creation as unique as the occasion itself.",
+    "titleHighlight": "handcrafted in Karlsruhe.",
+    "subtitle": "Bespoke cakes, cupcakes & cookies from Karlsruhe – wedding cakes, birthday cakes and custom designs, lovingly handcrafted for your most beautiful moments.",
     "ctaPrimary": "Request a cake",
     "ctaSecondary": "View gallery",
     "scrollHint": "Discover"
@@ -51,8 +51,8 @@
     "other": "Other"
   },
   "About": {
-    "eyebrow": "About Randa",
-    "title": "Baked with heart, hands and dedication.",
+    "eyebrow": "About Randa Torten Karlsruhe",
+    "title": "Baked with heart, hands and dedication in Karlsruhe.",
     "story": "What started as a passion for my family has grown into a small atelier in Karlsruhe. Every cake that leaves my workshop tells a story – your story. I work with carefully selected ingredients, plenty of attention to detail, and the firm belief that every occasion deserves a unique piece.",
     "signature": "— Randa",
     "values": {
@@ -66,8 +66,8 @@
     "ctaContact": "Get in touch"
   },
   "Gallery": {
-    "title": "Our Gallery",
-    "subtitle": "Every cake is one of a kind – inspired by you, crafted by us.",
+    "title": "Cake Gallery from Karlsruhe",
+    "subtitle": "Every cake from Karlsruhe is one of a kind – wedding cakes, birthday cakes and custom designs, inspired by you, crafted by us.",
     "filter": "Category",
     "all": "All",
     "loading": "Loading gallery...",
@@ -127,8 +127,8 @@
     }
   },
   "Contact": {
-    "title": "Contact",
-    "subtitle": "Message us – best directly on Instagram!",
+    "title": "Contact – Order a cake in Karlsruhe",
+    "subtitle": "Message us for your custom cake from Karlsruhe – best directly on Instagram!",
     "address": "Karlsruhe, Baden-Württemberg",
     "addressNote": "Exact address on request – we bake from a private workshop.",
     "hours": "Availability",
@@ -140,8 +140,8 @@
     "contactNote": "For orders, please message us directly on Instagram – that's the best way for us to discuss your wishes!"
   },
   "Prices": {
-    "title": "Prices & FAQ",
-    "subtitle": "Transparent guide prices – every offer is created individually.",
+    "title": "Prices & FAQ – Cakes from Karlsruhe",
+    "subtitle": "Transparent guide prices for custom cakes from Karlsruhe – every offer is calculated personally.",
     "tableTitle": "Guide prices",
     "size": "Type",
     "guests": "Servings",
